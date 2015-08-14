@@ -1,0 +1,277 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/parent_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:clickable="true"
+                tools:context="com.velvetcase.app.material.fragments.FreeQuateFragment">
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="SUBMIT YOUR DESIGN\nAND GET A FREE  QUOTE!"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:id="@+id/wrap_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView3"
+                    android:layout_marginTop="30dp">
+
+                    <ImageView
+                        android:id="@+id/imageV1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/smallring" />
+
+                    <TextView
+                        android:id="@+id/imageV1_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignTop="@+id/imageV1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/imageV1"
+                        android:gravity="center_vertical"
+                        android:text="Choose image"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/imageV1"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#ffcccccc"
+                        android:gravity="center"
+
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/wrap_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wrap_one"
+                    android:visibility="gone"
+                    >
+                    <ImageView
+                        android:id="@+id/imageV2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginStart="50dp"
+
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/smallring" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignBottom="@+id/imageV2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/imageV2"
+                        android:gravity="center_vertical"
+                        android:text="Choose image"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/imageV2"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#ffcccccc"
+                        android:gravity="center"
+
+                        />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/wrap_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wrap_two"
+                    android:visibility="gone">
+
+
+                    <ImageView
+                        android:id="@+id/imageV3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginStart="50dp"
+
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/smallring" />
+
+                    <TextView
+                        android:id="@+id/textView_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignBottom="@+id/imageV3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/imageV3"
+                        android:gravity="center_vertical"
+                        android:text="Choose image"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/imageV3"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#ffcccccc"
+                        android:gravity="center"
+
+                        />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/wrap_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wrap_three"
+                    android:visibility="gone">
+
+
+                    <ImageView
+                        android:id="@+id/imageV4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginStart="50dp"
+
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/smallring" />
+
+                    <TextView
+                        android:id="@+id/textView_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignBottom="@+id/imageV4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/imageV4"
+                        android:gravity="center_vertical"
+                        android:text="Choose image"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/view4"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/imageV4"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#ffcccccc"
+                        android:gravity="center"
+
+                        />
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wrap_four"
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="15dp"
+                    android:hint="Email"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/editText"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_shape"
+                    android:text="Submit"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_below="@+id/button4"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/light_grey"
+                    android:text="Cancel" />
+
+            </RelativeLayout>
+
+
+        </FrameLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/contact" />
+    </RelativeLayout>
+</RelativeLayout>

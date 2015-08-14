@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER #:"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:id="@+id/txt_order_wrapper"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2548"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:id="@+id/txt_order"
+        android:layout_alignTop="@+id/txt_order_wrapper"
+        android:layout_toRightOf="@+id/txt_order_wrapper"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLACED ON :"
+        android:id="@+id/txt_placeon_wrapper"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt_order_wrapper"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14 MAY 2015"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/txt_placeon"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/txt_placeon_wrapper"
+        android:layout_toRightOf="@+id/txt_placeon_wrapper"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL :"
+        android:id="@+id/txt_total_wrapper"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt_placeon_wrapper"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\u20B9\ 8010"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:id="@+id/txt_total"
+        android:layout_alignTop="@+id/txt_total_wrapper"
+        android:layout_toRightOf="@+id/txt_total_wrapper"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS :"
+        android:id="@+id/txt_status_wrapper"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt_total_wrapper"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREPARING FOR DISPATCH"
+        android:id="@+id/txt_status"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/green"
+        android:layout_below="@+id/txt_total"
+        android:layout_alignTop="@+id/txt_status_wrapper"
+        android:layout_toRightOf="@+id/txt_status_wrapper"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="Cancel"
+        android:id="@+id/btn_cancel"
+        android:layout_below="@+id/txt_status_wrapper"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:background="#CCCCCC"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW DETAILS"
+        android:id="@+id/txt_viewDetails"
+        android:layout_below="@+id/btn_cancel"
+        android:textSize="16sp"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+</RelativeLayout>

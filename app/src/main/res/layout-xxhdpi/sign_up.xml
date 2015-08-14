@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/button"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/fb_icon"/>
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                style="@style/Widget.MyApp.HeaderBar.Spinner"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_below="@+id/button"
+                android:id="@+id/spinner" />
+            <TextView
+                android:id="@+id/horiz_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"
+                android:layout_marginRight="54dp"
+                android:layout_marginLeft="54dp"
+                android:layout_below="@+id/spinner"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/edt_firstname"
+                android:hint="Name"
+                android:gravity="bottom"
+                android:textColor="@color/black"
+                android:layout_below="@+id/spinner"
+                android:layout_centerHorizontal="true" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/edt_emailfield"
+                android:hint="Email"
+                android:textColor="@color/black"
+                android:layout_below="@+id/edt_firstname"
+                android:layout_centerHorizontal="true" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/edt_passwordfield"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:layout_below="@+id/edt_emailfield"
+                android:layout_centerHorizontal="true" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="bottom"
+                android:id="@+id/edt_mobilenumber"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:layout_below="@+id/edt_passwordfield"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By clicking join, you agree to Velvetcase's "
+                android:id="@+id/textView2"
+                android:layout_below="@+id/edt_mobilenumber"
+
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms and Conditions"
+                android:id="@+id/terms_and_cond_text"
+                android:layout_below="@+id/textView2"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="Join"
+                android:id="@+id/button2"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/terms_and_cond_text"
+                android:background="@drawable/button_shape"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/error_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/light_green"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Please Fill Field!"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+
+</RelativeLayout>

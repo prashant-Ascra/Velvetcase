@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/white_light"
+    android:clickable="true">
+    <FrameLayout
+        android:id="@+id/framelayout_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        >
+        <RelativeLayout
+            android:id="@+id/template_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:clickable="true"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ANNIVERSARY-SELECT TEMPLATE"
+                android:id="@+id/textView12"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/animation_layout"
+                android:layout_toEndOf="@+id/animation_layout" />
+            <TextView
+                android:id="@+id/templatepagecount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:paddingTop="4dp"
+                android:layout_marginRight="18dp"
+
+                android:textSize="16sp"
+                android:text=""/>
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/TemplatecardList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/templatepagecount"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/empty_msg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="There are no template available for this occasion."/>
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

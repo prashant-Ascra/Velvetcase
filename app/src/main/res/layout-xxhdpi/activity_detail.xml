@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nirhart.parallaxscroll.views.ParallaxScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:parallax_factor="2.6"
+    app:alpha_factor="1.9"
+    tools:context=".ActivityDetails" >
+    <!--<ScrollView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent">-->
+    <!--<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+    <FrameLayout
+        android:id="@+id/parent_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/reclyclerview_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="fill_parent"
+                android:layout_height="270dp"
+                android:layout_alignParentTop="true"
+                />
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:padding="5dip"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/bag_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:visibility="visible">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="270dp"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+                <!-- <ImageButton
+                     android:id="@+id/bag_icon"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="right|center_vertical"
+                     android:scaleType="fitXY"
+
+                     android:background="@android:color/transparent"
+                     android:src="@drawable/glass"
+                     android:layout_marginRight="8dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentEnd="true"
+                     android:visibility="visible"/>-->
+
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="SWANKY PEARL EARRING"
+                    android:gravity="start"
+                    android:layout_marginLeft="45dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+
+                    />
+                <ImageView
+                    android:id="@+id/flag_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:padding="1dp"
+                    android:layout_below="@+id/title"
+                    android:layout_marginLeft="45dp"
+                    android:src="@drawable/flag"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:id="@+id/designer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:text="Designer, Min Sun New York"
+                    android:layout_toRightOf="@+id/flag_icon"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#a4a4a4"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:id="@+id/prise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/designer"
+                    android:text="\u20B93,828"
+                    android:gravity="left"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="45dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:text="Shop Now"
+                    android:id="@+id/button3"
+                    android:layout_below="@+id/designer"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:visibility="visible"
+                    android:textSize="14sp"
+                    android:background="@drawable/grey_button_shape"/>
+
+                <TextView
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/prise"
+                    android:gravity="center"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:background="#ffcccccc"
+                    android:layout_marginTop="7dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/toolbar_spinner"
+
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_below="@+id/view"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="40dp"
+                    android:text="Available from Rs3,828 to Rs8,161"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/toolbar_spinner"
+                    android:gravity="center"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:background="#ffcccccc"
+                    android:layout_marginTop="9dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/detailclose_icon"
+                    android:layout_alignLeft="@+id/view2"
+                    android:layout_below="@+id/view2"
+                    android:padding="4dp"
+                    android:src="@drawable/close_icon"
+                    android:layout_marginTop="13dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/heart_icon"
+                    android:layout_alignRight="@+id/view2"
+                    android:layout_below="@+id/view2"
+                    android:src="@drawable/heart_icon"
+                    android:layout_marginTop="16dp"/>
+                <LinearLayout
+                    android:id="@+id/shop_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/detailclose_icon"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:visibility="gone">
+                    <com.velvetcase.app.material.UnderlineTextView
+                        android:id="@+id/txt_shopnow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="SHOP NOW"
+                        android:gravity="center_horizontal"
+
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+                    <com.velvetcase.app.material.UnderlineTextView
+                        android:id="@+id/txt_discoversimilar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="DISCOVER SIMILAR"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+                    <com.velvetcase.app.material.UnderlineTextView
+                        android:id="@+id/txt_discovernew"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="DISCOVER NEW"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="25dp"
+                        android:textStyle="normal"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/offer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shop_layout"
+
+                    android:layout_alignLeft="@+id/view2"
+                    android:layout_marginLeft="4dp"
+                    android:layout_alignRight="@+id/view2"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:text="100% CERTIFIED, LIFETIME EXACHANGE 30 DAYS RETURN, FREE SHIPING"
+                    />
+                <TextView
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/offer"
+                    android:gravity="center"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:background="#ffcccccc"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:id="@+id/product_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view3"
+                    android:layout_alignLeft="@+id/view3"
+                    android:layout_alignRight="@+id/view3"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="Product Details"
+                    />
+                <LinearLayout
+                    android:id="@+id/dynamic_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/product_detail"
+                    android:layout_alignLeft="@+id/view3"
+                    android:layout_alignRight="@+id/view3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/product_specification_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/product_detail"
+                        android:layout_alignLeft="@+id/view3"
+                        android:layout_alignRight="@+id/view3"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:text="Metal - Silver 925kt  |  Weight - 4.74 gms "
+                        />
+
+                    <!-- <TextView
+                         android:id="@+id/product_specification_two"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/product_specification_one"
+                         android:layout_alignLeft="@+id/view3"
+                         android:layout_alignRight="@+id/view3"
+                         android:layout_marginTop="10dp"
+                         android:textColor="@color/black"
+                         android:textSize="13sp"
+                         android:text="Stone - Pearl |  Shape - Round  |  Pieces - 6 "
+                         />-->
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/dynamic_layout"
+                    android:gravity="center"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:background="#ffcccccc"
+                    android:layout_marginTop="20dp"
+                    />
+                <TextView
+                    android:id="@+id/product_story"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view4"
+                    android:layout_alignLeft="@+id/view4"
+                    android:layout_alignRight="@+id/view4"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="Product Story"
+                    />
+                <TextView
+                    android:id="@+id/product_story_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/product_story"
+                    android:layout_alignLeft="@+id/view4"
+                    android:layout_alignRight="@+id/view4"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:text="A very fresh design, these earring are meant for the modern diva. Super stylish and light in weight, these handmade earrings showcase a 'U' shaped wire baeaded with fresh water pearls at regular intervals."
+                    />
+
+                <TextView
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/product_story_detail"
+                    android:gravity="center"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+
+
+
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/arrow_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/arrow_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:scaleType="fitXY"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="7dp"
+                android:padding="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/arrow_icon"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:visibility="visible"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/arrow_wrapper_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/bag_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:scaleType="fitXY"
+                android:layout_marginTop="231dp"
+                android:layout_marginLeft="3dp"
+                android:padding="10dp"
+
+                android:background="@android:color/transparent"
+                android:src="@drawable/glass"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:visibility="visible"/>
+            <RelativeLayout
+                android:id="@+id/filter_menu"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/metal_image"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="135dp"
+                    android:layout_marginRight="15dp"
+                    android:padding="4dp"
+                    android:src="@drawable/oham"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="METAL"
+                    android:id="@+id/txt_metals"
+                    android:padding="8dp"
+                    android:layout_marginTop="140dp"
+
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/metal_image"
+                    android:layout_toStartOf="@+id/metal_image" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dollar_image"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="185dp"
+                    android:layout_marginRight="15dp"
+                    android:padding="4dp"
+                    android:src="@drawable/rupee_symbol"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRICE"
+                    android:id="@+id/txt_price"
+                    android:padding="8dp"
+                    android:layout_marginTop="190dp"
+
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/dollar_image"
+                    android:layout_toStartOf="@+id/dollar_image" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- The rest of your content view -->
+    </FrameLayout>
+
+    <!--</LinearLayout>-->
+</com.nirhart.parallaxscroll.views.ParallaxScrollView>

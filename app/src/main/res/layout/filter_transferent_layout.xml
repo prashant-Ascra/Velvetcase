@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#70000000"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/metal_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:padding="8dp"
+        android:src="@drawable/oham"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="METAILS"
+        android:id="@+id/txt_metals"
+        android:padding="8dp"
+        android:layout_marginTop="80dp"
+
+        android:textColor="@color/white"
+        android:layout_toLeftOf="@+id/metal_image"
+        android:layout_toStartOf="@+id/metal_image" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dollar_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="10dp"
+        android:padding="8dp"
+        android:src="@drawable/dollar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRICE"
+        android:id="@+id/txt_price"
+        android:padding="8dp"
+        android:layout_marginTop="130dp"
+
+        android:textColor="@color/white"
+        android:layout_toLeftOf="@+id/dollar_image"
+        android:layout_toStartOf="@+id/dollar_image" />
+</RelativeLayout>

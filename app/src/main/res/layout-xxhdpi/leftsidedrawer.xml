@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#333333"
+    android:clickable="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Discover"
+            android:gravity="left"
+            android:layout_marginLeft="50dp"
+            android:textSize="18sp"
+            android:textColor="@color/light_grey"
+            android:id="@+id/txt_Discover" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/downarrow" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/discover_child_wrapper"
+            android:layout_below="@+id/arrow1"
+            android:layout_alignLeft="@+id/txt_Discover"
+            android:layout_alignStart="@+id/txt_Discover"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/txt_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Products"
+                android:gravity="left"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/light_grey"
+                />
+            <TextView
+                android:id="@+id/txt_child_designers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Designers"
+                android:gravity="left"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/light_grey"
+             />
+                <TextView
+                    android:id="@+id/txt_looks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Looks"
+                android:gravity="left"
+                android:layout_marginLeft="20dp"
+                    android:textSize="18sp"
+                android:textColor="@color/light_grey"
+                 />
+            </LinearLayout>
+
+    </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_create_a_look"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Create a Look"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/light_grey"
+            />
+        <TextView
+            android:id="@+id/txt_ask_a_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ask A Friend"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/light_grey"
+            />
+        <TextView
+            android:id="@+id/txt_get_a_free_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Get a Free Quote"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/light_grey"
+            />
+
+    <TextView
+        android:id="@+id/txt_try_and_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Try and Buy"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/light_grey"
+        />
+
+        <TextView
+            android:id="@+id/txt_menu_designers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Designers"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/light_grey"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="left"
+        android:layout_marginLeft="60dp"
+        android:background="@color/light_grey"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="My Account"
+            android:gravity="left"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/light_grey"
+            android:textSize="18sp"
+            android:id="@+id/txt_myaccount"
+            />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/downarrow" />
+        <LinearLayout
+            android:id="@+id/myaccount_child_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/arrow2"
+            android:layout_alignLeft="@+id/txt_myaccount"
+            android:layout_alignStart="@+id/txt_myaccount"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/txt_orders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Orders"
+                android:gravity="left"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:textColor="@color/light_grey"
+                />
+            <TextView
+                android:id="@+id/txt_saveed_looks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Saved Looks"
+                android:gravity="left"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textColor="@color/light_grey"
+                />
+            <TextView
+                android:id="@+id/txt_wishlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wishlist "
+                android:gravity="left"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textColor="@color/light_grey"
+                />
+            <TextView
+                android:id="@+id/txt_favourite_designers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Favourite Designers"
+                android:gravity="left"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textColor="@color/light_grey"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/txt_Notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Notifications"
+            android:gravity="left"
+            android:layout_marginLeft="50dp"
+            android:textSize="18sp"
+        android:visibility="gone"
+            android:textColor="@color/light_grey"
+            />
+
+    <TextView
+        android:id="@+id/txt_signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sign Out"
+        android:gravity="left"
+        android:layout_marginLeft="50dp"
+        android:textSize="18sp"
+        android:textColor="@color/light_grey"
+        />
+
+
+
+</LinearLayout>
+    </ScrollView>

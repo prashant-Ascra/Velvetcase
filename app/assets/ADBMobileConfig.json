@@ -1,0 +1,33 @@
+{
+  "lastModified": "2015-02-25T11:54:02.337Z",
+  "target": {
+    "clientCode": "",
+    "timeout": 5
+  },
+  "audienceManager": {
+    "server": ""
+  },
+  "acquisition": {
+    "server": "c00.adobe.com",
+    "appid": "e1b587b04bd3115f1ed89aa76e9a78677de7486e8b4d4a89a8d3a7af3e4392b9"
+  },
+  "analytics": {
+    "rsids": "MobiPricelessArabia",
+    "server": "mastercard.sc.omtrdc.net",
+    "ssl": false,
+    "offlineEnabled": false,
+    "charset": "UTF-8",
+    "lifecycleTimeout": 300,
+    "privacyDefault": "optedin",
+    "batchLimit": 0,
+    "timezone": "AEDT",
+    "timezoneOffset": 660,
+    "referrerTimeout": 0,
+    "poi": []
+  },
+  "messages": [],
+  "remotes": {
+    "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-54edb84233383600164c0500.json",
+    "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-54edb8423836320019b90a00.json"
+  }
+}

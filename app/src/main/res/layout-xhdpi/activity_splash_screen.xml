@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffeeeeee">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:id="@+id/imageView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_logo"
+        android:layout_marginTop="25dp" />
+    <!--
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView7"
+            android:layout_below="@+id/imageView6"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/blueearring"
+            android:layout_marginTop="20dp" />-->
+
+    <LinearLayout
+        android:id="@+id/viewpager_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView6"
+        >
+        <RelativeLayout
+            android:id="@+id/slider_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.9"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+
+                />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:padding="5dip"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_alignParentBottom="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/fb_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP"
+                android:id="@+id/signup_text"
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:textColor="@color/light_grey"
+                android:layout_below="@+id/imageView8"
+                android:layout_alignLeft="@+id/imageView8"
+                android:layout_alignStart="@+id/imageView8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGN IN"
+                android:textSize="16sp"
+                android:id="@+id/signin_text"
+                android:padding="8dp"
+                android:layout_below="@+id/imageView8"
+                android:layout_alignRight="@+id/imageView8"
+                android:layout_alignEnd="@+id/imageView8" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/empty_text"
+                android:padding="4dp"
+                android:layout_below="@+id/signin_text"
+                android:layout_alignRight="@+id/signin_text"
+                android:layout_alignEnd="@+id/signin_text" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

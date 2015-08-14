@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.velvetcase.app.material.fragments.FreeQuateFragment"
+    android:background="@color/white_light">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT YOUR DESIGN\nAND GET A FREE  QUOTE!"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/boxes"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload from gallary"
+        android:id="@+id/upload_from_gallary_text"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="10dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_alignBottom="@+id/imageView2"
+         />
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/imageView2"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#ffcccccc"
+        android:layout_marginTop="8dp"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+
+        android:src="@drawable/camera"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Take a picture"
+        android:id="@+id/take_a_photo_text"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignLeft="@+id/upload_from_gallary_text"
+        android:layout_alignStart="@+id/upload_from_gallary_text" />
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/imageView3"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#ffcccccc"
+        android:layout_marginTop="8dp"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/view2"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:src="@drawable/contact"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:background="@color/light_grey">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FROM OUR CUSTOM STUDIO"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true" />
+        <HorizontalScrollView
+            android:id="@+id/horizontal_scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/entertainment"
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/diamondring"
+                   />
+
+                <ImageView
+                    android:id="@+id/sports"
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/neckless"
+                   />
+
+                <ImageView
+                    android:id="@+id/travel"
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/smallring" />
+
+                <ImageView
+                    android:id="@+id/entertainment1"
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/diamondring"
+                    />
+
+                <ImageView
+                    android:id="@+id/sports1"
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/neckless"
+                    />
+
+                <ImageView
+                    android:id="@+id/travel1"
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/smallring" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

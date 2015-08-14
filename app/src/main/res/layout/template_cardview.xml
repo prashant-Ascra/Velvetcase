@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<com.velvetcase.app.material.ZoomView-->
+<!---->
+<!--android:id="@+id/ZoomView"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content">-->
+<RelativeLayout
+    android:id="@+id/template_cardview_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:clickable="true"
+        android:id="@+id/template_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="3dp"
+        card_view:cardBackgroundColor="@color/white"
+        android:layout_marginBottom="20dp"
+
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+>
+            <RelativeLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            android:visibility="visible">
+
+
+            <ImageView
+                android:id="@+id/template_image"
+                android:layout_width="fill_parent"
+                android:layout_height="360dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/girl"
+                android:paddingBottom="10dp"/>
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:text="SELECT TEMPLATE"
+                android:textColor="@color/black"
+                android:id="@+id/template_btn"
+                android:layout_below="@+id/template_image"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:background="@drawable/button"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/variation_img1"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/transferent_box"
+                    />
+                <ImageView
+                    android:id="@+id/variation_img2"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/variation_img1"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/transferent_box"
+                 />
+                <ImageView
+                    android:id="@+id/variation_img3"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/variation_img2"
+                    android:src="@drawable/transferent_box"
+                    />
+
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+
+    <!--</com.velvetcase.app.material.ZoomView>-->

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+   >
+     <Toolbar
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         android:id="@+id/toolbar"
+         android:layout_width="match_parent"
+         android:layout_height="48dp"
+         android:background="@color/white"
+         app:contentInsetEnd="0dp"
+         app:contentInsetStart="0dp">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:padding="10dp"
+                 android:src="@drawable/arrow_icon"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerHorizontal="true"
+                 android:layout_centerVertical="true"
+                 android:textColor="@color/black"
+                 android:textSize="16sp"
+                 android:textStyle="bold"
+                 android:text="ORDERS DETAILS"/>
+             </RelativeLayout>
+         
+         </Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_order_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="ORDER #:"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txt_order_wrapper"
+                android:layout_toRightOf="@+id/txt_order_wrapper"
+                android:padding="7dp"
+                android:text="2548"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_placeon_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_order_wrapper"
+                android:padding="7dp"
+                android:text="PLACED ON :"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_placeon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txt_placeon_wrapper"
+                android:layout_toRightOf="@+id/txt_placeon_wrapper"
+                android:padding="7dp"
+                android:text="14 MAY 2015"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_total_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_placeon_wrapper"
+                android:padding="7dp"
+                android:text="TOTAL :"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txt_total_wrapper"
+                android:layout_toRightOf="@+id/txt_total_wrapper"
+                android:padding="7dp"
+                android:text="\u20B9\ 8010"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_status_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_total_wrapper"
+                android:padding="7dp"
+                android:text="STATUS :"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txt_status_wrapper"
+                android:layout_below="@+id/txt_total"
+                android:layout_toRightOf="@+id/txt_status_wrapper"
+                android:padding="7dp"
+                android:text="PREPARING FOR DISPATCH"
+                android:textColor="@color/green"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_product_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_status_wrapper"
+                android:padding="7dp"
+                android:text="PRODUCTS :"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_product_thumbnail"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/txt_product_wrapper"
+                android:padding="7dp"
+                android:src="@drawable/blueearring" />
+
+            <TextView
+                android:id="@+id/txt_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img_product_thumbnail"
+                android:layout_toEndOf="@+id/img_product_thumbnail"
+                android:layout_toRightOf="@+id/img_product_thumbnail"
+                android:padding="5dp"
+                android:text="ETHNIC GREEN ONYX EARRINGS"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_designer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_product_name"
+                android:layout_below="@+id/txt_product_name"
+                android:layout_toEndOf="@+id/txt_total"
+                android:layout_toRightOf="@+id/txt_total"
+                android:paddingLeft="5dp"
+                android:text="by Polido Bozal"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_product_prise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_designer_name"
+                android:layout_alignStart="@+id/txt_designer_name"
+                android:layout_below="@+id/txt_designer_name"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="\u20b9\ 6000"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_quality_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_designer_name"
+                android:layout_alignStart="@+id/txt_designer_name"
+                android:layout_below="@+id/txt_product_prise"
+                android:padding="5dp"
+                android:text="QTY : 1"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_product_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_quality_count"
+                android:layout_alignStart="@+id/txt_quality_count"
+                android:layout_below="@+id/txt_quality_count"
+                android:padding="5dp"
+                android:text="PRODUCT CODE : ER140097"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text_payment_mode_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_product_wrapper"
+                android:layout_alignStart="@+id/txt_product_wrapper"
+                android:layout_below="@+id/img_product_thumbnail"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="PAYMENT MODE"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_payment_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_product_wrapper"
+                android:layout_alignStart="@+id/txt_product_wrapper"
+                android:layout_below="@+id/text_payment_mode_wrapper"
+                android:paddingLeft="5dp"
+
+                android:text="Cash On Delivery (COD)"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/text_shiping_address_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text_payment_mode"
+                android:layout_alignStart="@+id/text_payment_mode"
+                android:layout_below="@+id/text_payment_mode"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="SHIPING ADDRESS"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_shiping_address"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_product_wrapper"
+                android:layout_alignStart="@+id/txt_product_wrapper"
+                android:layout_below="@+id/text_shiping_address_wrapper"
+                android:paddingLeft="5dp"
+                android:text="515, Rupa Solitaire,Millennium Business Park,Mahape,Navi Mumbai-400710"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/text_order_summary_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text_payment_mode"
+                android:layout_alignStart="@+id/text_payment_mode"
+                android:layout_below="@+id/text_shiping_address"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="ORDER SUMMERY"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_subtotal"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_product_wrapper"
+                android:layout_alignStart="@+id/txt_product_wrapper"
+                android:layout_below="@+id/text_order_summary_wrapper"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="SUB TOTAL : \u20B9 8010"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/text_grandtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_product_wrapper"
+                android:layout_alignStart="@+id/txt_product_wrapper"
+                android:layout_below="@+id/text_subtotal"
+                android:paddingLeft="5dp"
+                android:text="GRAND TOTAL : \u20B9 8010"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_track"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/text_grandtotal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#CCCCCC"
+                android:text="Track"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/text_grandtotal"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/btn_track"
+                android:background="#CCCCCC"
+                android:text="Cancel"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_close_details"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_product_wrapper"
+                android:layout_alignStart="@+id/txt_product_wrapper"
+                android:layout_below="@+id/btn_track"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Close Details"
+                android:textColor="@color/blue"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp">
+
+    <RelativeLayout
+        android:id="@+id/image_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <ImageView
+            android:id="@+id/jwel_imag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+
+            android:src="@drawable/ring"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/jwel_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YELLOW GOLD 18 KT/\nVS/VSS DIAMONDS"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/image_wrapper"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

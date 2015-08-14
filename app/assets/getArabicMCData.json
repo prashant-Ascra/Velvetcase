@@ -1,0 +1,1696 @@
+{ "mcCarddata" :[
+    {
+        Region:"East Africa",
+        Country:"جيبوتي",
+        Bank:"Salaam African Bank (SAB) - Islamic bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.banksalaam.com/index.php?page=Contacts"
+    },
+    {
+        Region:"East Africa",
+        Country:"كينيا",
+        Bank:"CFC Stanbic",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.cfcstanbicbank.co.ke/"
+    },
+    {
+        Region:"East Africa",
+        Country:"كينيا",
+        Bank:"Chase Bank",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.chasebankkenya.co.ke/"
+    },
+    {
+        Region:"East Africa",
+        Country:"كينيا",
+        Bank:"Equatorial Commercial Bank Ltd. (ECB)",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.equatorialbank.co.ke/"
+    },
+    {
+        Region:"East Africa",
+        Country:"كينيا",
+        Bank:"Equity Bank Ltd.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.equitybank.co.ke/"
+    },
+    {
+        Region:"East Africa",
+        Country:"كينيا",
+        Bank:"I & M Bank Ltd",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"https://www.imbank.com/"
+    },
+    {
+        Region:"East Africa",
+        Country:"كينيا",
+        Bank:"Kenya Commercial Bank Ltd (KCB)",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"https://www.kcbbankgroup.com"
+    },
+    {
+        Region:"East Africa",
+        Country:"كينيا",
+        Bank:"DTB Bank",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"https://www.dtbafrica.com"
+    },
+    {
+        Region:"East Africa",
+        Country:"تنزانيا",
+        Bank:"CRDB Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.crdbbank.com/"
+    },
+    {
+        Region:"East Africa",
+        Country:"تنزانيا",
+        Bank:"Exim Bank ",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.eximbank-tz.com/"
+    },
+    {
+        Region:"East Africa",
+        Country:"تنزانيا",
+        Bank:"FBME Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"https://www.fbme.com/"
+    },
+    {
+        Region:"East Africa",
+        Country:"تنزانيا",
+        Bank:"National Bank of Commerce Ltd (NBC)",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.nbctz.com/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"أنغولا",
+        Bank:"Banco de Negocios Internacional (BNI)",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.bni.ao/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"بوتسوانا",
+        Bank:"Kingdom Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.kingdombotswana.com/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جزر القمر",
+        Bank:"Banque Fédérale du Commerce (BFC-Comores)",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.bfcbanque.com/home.php?lang=EN"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جمهورية الكونغو الديمقراطية",
+        Bank:"Banque  Internationale pour  l'Afrique au Congo (BIAC)",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.biac.cd/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جمهورية الكونغو الديمقراطية",
+        Bank:"Banque Internationale du  Crédit (BIC)",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.bic.cd/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جمهورية الكونغو الديمقراطية",
+        Bank:"Procredit Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.procreditbank.cd/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جمهورية الكونغو الديمقراطية",
+        Bank:"Rawbank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.rawbank.cd/en/banque.html"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جمهورية الكونغو الديمقراطية",
+        Bank:"Sofibanque",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.sofibanque.com/eng/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جمهورية الكونغو الديمقراطية",
+        Bank:"Trust Merchant Bank ",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.trustmerchantbank.com/?lang=en"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"موريشيوس",
+        Bank:"CIM Finance Limited",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.cim.mu/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"موريشيوس",
+        Bank:"HSBC",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.hsbc.co.mu/1/2/home"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"موريشيوس",
+        Bank:"Mauritius Commercial Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.mcb.mu/en/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"موريشيوس",
+        Bank:"Mauritius Post & Cooperative Bank",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.mpcb.mu/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"موريشيوس",
+        Bank:"SBI International Mauritius",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.sbimauritius.com/new/files/index.php"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"موريشيوس",
+        Bank:"State Bank of Mauritius",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.sbmgroup.mu/home.php?lang=en"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"ناميبيا",
+        Bank:"Standard Bank",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.standardbank.com.na/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"السيشيل",
+        Bank:"Mauritius Commercial Bank (MCB) ",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.mcbseychelles.com/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"زيمبابوي",
+        Bank:"FBC",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.fbc.co.zw/bank/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"زيمبابوي",
+        Bank:"Kingdom Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.kingdom.co.zw/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"زيمبابوي",
+        Bank:"Metropolitan Bank of Zimbabwe (Metbank)",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.metbank.co.zw/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"Capitec Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.capitecbank.co.za/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"FX Africa",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.travelex.co.za/za/home/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"InterAfrica",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.interafrica.co.za/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"Tourvest",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.tourvest.co.za/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"Euro Dollar Exchange",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.eurodollar.co.za/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"Mercantile Bank",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"https://www.mercantile.co.za/Pages/Home1.aspx"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"ACE Currency Exchange",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.acefx.co.za/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"ABSA Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.absa.co.za/Absacoza/"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"Ned Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.nedbank.co.za/website/content/home/index.asp"
+    },
+    {
+        Region:"SOUTHERN AFRICA",
+        Country:"جنوب أفريقيا",
+        Bank:"Standard Bank of South Africa",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.standardbank.co.za/portal/site/standardbank"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"ECOBANK - acquired Oceanic Bank",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.ecobank.com/countryinfo.aspx?cid=74072"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"ENTERPRISE BANK - formerly Spring Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://web.entbankng.com/Enterprise/Default.aspx"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"FIDELITY BANK",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.fidelitybankplc.com/#"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"FIRST BANK",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.firstbanknigeria.com/"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"FIRST CITY MONUMENT BANK (FCMB) ",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.firstcitygroup.com/fcmb/"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"KEYSTONE BANK ",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.keystonebankng.com/"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"GUARANTY TRUST BANK",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://gtbank.com/"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"SKYE BANK",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.skyebankng.com/"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"STANBICIBTC",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.stanbicibtcbank.com/standimg/Nigeria/newSite/HTML/homePage.html"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"UNITED BANK FOR AFRICA (UBA)",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.ubagroup.com/"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"UNITY BANK",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.unitybankng.com/"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"WEMA BANK",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.wemabank.com/default.aspx"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"نيجيريا",
+        Bank:"ZENITH BANK",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.zenithbank.com/"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"غانا",
+        Bank:"GHANA COMMERCIAL BANK",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.gcb.com.gh/"
+    },
+    {
+        Region:"WEST AFRICA",
+        Country:"غانا",
+        Bank:"GUARANTY TRUST BANK (Ghana)",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.gtbghana.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Abu Dhabi Commercial Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.adcb.com/"
+    },
+	 {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Abu Dhabi Islamic Bank P.J.S.C.",
+    Debit:"no",
+    Credit:"yes",
+    Prepaid:"no",
+    URL:"http://www.adib.ae/"
+	},
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Al Hilal Bank PJSC",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.alhilalbank.ae/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Commercial Bank of Dubai",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.cbd.ae/cbd/home.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Citibank, N.A.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.citibank.ae/uae/homepage/index.htm"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"First Gulf Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.fgb.ae/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Noor Islamic Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.noorbank.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Dunia Finance L.L.C.",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.dunia.ae/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"SAMBA Financial Group",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.samba.com/english/index_01_01_en.html"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"National Bank of Abu Dhabi",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.nbad.com/en/Pages/nbad-global.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"HSBC Bank Middle East",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.hsbc.ae/1/2/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Mashreq Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.mashreqbank.com/uae/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"National Bank of Abu Dhabi",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.nbad.com/en/Pages/nbad-global.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Finance House",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.financehouse.ae/en"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Union National Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.unb.co.ae/english/index.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Standard Chartered Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.sc.com/ae/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Commercial Bank International / C3",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.cbiuae.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Emirates NBD",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.emiratesnbd.com/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"National Bank of Ras Al-Khaimah (RAKBank)",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://rakbank.ae/wps/portal/home"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"UAE Exchange Centre LLC",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.uaeexchange.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Sharjah Islamic Bank PJSC",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.sib.ae/en"
+    },
+    {
+        Region:"Middle East",
+        Country:"الإمارات العربية المتحدة",
+        Bank:"Lari Exchange",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.lariexchange.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"تونس",
+        Bank:"Amen Bank",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.amenbank.com.tn/"
+    },
+    {
+        Region:"Middle East",
+        Country:"تونس",
+        Bank:"UIB Bank",
+        Debit:"no",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.uib.com.tn/"
+    },
+    {
+        Region:"Middle East",
+        Country:"تونس",
+        Bank:"Societe Monetique-Tunisie",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.clictopay.com.tn/"
+    },
+    {
+        Region:"Middle East",
+        Country:"المملكة العربية السعودية",
+        Bank:"National Commercial Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.alahli.com/en-US/Pages/NCBHomePage.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"المملكة العربية السعودية",
+        Bank:"Riyad Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.riyadbank.com/index_en.html"
+    },
+    {
+        Region:"Middle East",
+        Country:"المملكة العربية السعودية",
+        Bank:"Saudi Investment Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.saib.com.sa/en"
+    },
+    {
+        Region:"Middle East",
+        Country:"المملكة العربية السعودية",
+        Bank:"Banque Saudi Fransi",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.alfransi.com.sa/en"
+    },
+    {
+        Region:"Middle East",
+        Country:"المملكة العربية السعودية",
+        Bank:"Arab National Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.anb.com.sa/"
+    },
+    {
+        Region:"Middle East",
+        Country:"المملكة العربية السعودية",
+        Bank:"Saudi British Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.sabb.com/1/2/sabb-en/home"
+    },
+    {
+        Region:"Middle East",
+        Country:"المملكة العربية السعودية",
+        Bank:"SAMBA Financial Group",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.samba.com/Arabic/index_01_01_ar.html"
+    },
+    {
+        Region:"Middle East",
+        Country:"المملكة العربية السعودية",
+        Bank:"Saudi Hollandi Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://shb.com.sa/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"المملكة العربية السعودية",
+        Bank:"Al-Rajhi Banking and Investment Corporation",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.alrajhibank.com.sa/en/pages/default.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"قطر",
+        Bank:"Commercial Bank of Qatar Ltd.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.cbq.qa/EN/Personal/Pages/default.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"قطر",
+        Bank:"Qatar National Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.qnb.com.qa/cs/Satellite/QNBGlobal/en/enGlobalHome"
+    },
+    {
+        Region:"Middle East",
+        Country:"قطر",
+        Bank:"Doha Bank Limited",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.dohabank.com.qa/1/db2/en/Personal.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"قطر",
+        Bank:"Qatar Islamic Bank",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.qib.com.qa/ar/index.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"قطر",
+        Bank:"Al-Ahli Bank of Qatar Q.S.C",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.ahlibank.com.qa/"
+    },
+    {
+        Region:"Middle East",
+        Country:"قطر",
+        Bank:"HSBC Bank Middle East",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.hsbc.com.qa/1/2/qa/"
+    },
+    {
+        Region:"Middle East",
+        Country:"قطر",
+        Bank:"International Bank of Qatar (Q.S.C.)",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.ibq.com.qa/Default_en_gb.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"المغرب",
+        Bank:"Banque Centrale Populaire",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.gbp.ma/Pages/Home.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"المغرب",
+        Bank:"BNP Paribas",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.bmci.ma/"
+    },
+    {
+        Region:"Middle East",
+        Country:"المغرب",
+        Bank:"Banque Marocaine du Commerce Exterieur",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.bmcebank.ma/"
+    },
+    {
+        Region:"Middle East",
+        Country:"المغرب",
+        Bank:"AttijariWafa Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"yes",
+        URL:"http://www.attijariwafabank.com/Pages/default.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"المغرب",
+        Bank:"BMCI Credit Conso",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://creditconso.bmci.ma/"
+    },
+    {
+        Region:"Middle East",
+        Country:"المغرب",
+        Bank:"Credit du Maroc",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.cdm.co.ma/www/fr/website/"
+    },
+    {
+        Region:"Middle East",
+        Country:"المغرب",
+        Bank:"Societe Generale Marocaine de Banques",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.sgmaroc.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"المغرب",
+        Bank:"Credit Agricole du Maroc",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.creditagricole.ma/Pages/default.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"Bank Audi- Audi Saradar Group",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.banqueaudi.com/Pages/Default.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"Al-Mawarid Bank S.A.L.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.almawarid.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"Fransabank SAL",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.fransabank.com/English/Pages/Corporate-Homepage.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"Societe Generale de Banque au Liban S.A.L.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.sgbl.com.lb/sgbl_fr/Pages/home.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"Banque Libano-Francaise SAL /Commerce & Finance SAL",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.eblf.com/en/Home"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"Bank of Beirut and the Arab Countries, SAL",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.bbacbank.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"CreditCard Services Company SAL",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.issuers.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"Credit Libanais S.A.L.",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.creditlibanais.com.lb/"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"BLOM Bank SAL",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.blombank.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"HSBC Bank Middle East",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.hsbc.com.lb/1/2/lb/"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"Standard Chartered Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.sc.com/lb/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"BankMed SAL",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.bankmed.com.lb/"
+    },
+    {
+        Region:"Middle East",
+        Country:"لبنان",
+        Bank:"BLC Bank SAL",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.blcbank.com"
+    },
+    {
+        Region:"Middle East",
+        Country:"الكويت",
+        Bank:"Burgan Bank, S.A.K.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.burgan.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الكويت",
+        Bank:"Kuwait Finance House",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.kfh.com/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الكويت",
+        Bank:"Al Ahli United bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.ahliunited.com.kw/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الكويت",
+        Bank:"Gulf Bank K.S.C.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.e-gulfbank.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الكويت",
+        Bank:"Commercial Bank of Kuwait S.A.K.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.cbk.com/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الكويت",
+        Bank:"National Bank of Kuwait (S.A.K.)",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.nbk.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الكويت",
+        Bank:"Warba Bank K.S.C",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.warbabank.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الأردن",
+        Bank:"Jordan Ahli Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.ahli.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الأردن",
+        Bank:"HSBC Bank Middle East",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.hsbc.jo"
+    },
+    {
+        Region:"Middle East",
+        Country:"الأردن",
+        Bank:"Arab Bank plc",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.arabbank.com.jo/"
+    },
+     {
+        Region:"Middle East",
+        Country:"الأردن",
+        Bank:"CSCBank SAL",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.issuers.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الأردن",
+        Bank:"Standard Chartered Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.sc.com/jo/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الأردن",
+        Bank:"Bank Audi- Audi Saradar Group",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.banqueaudi.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الأردن",
+        Bank:"The Housing Bank for Trade & Finance",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.hbtf.com"
+    },
+    {
+        Region:"Middle East",
+        Country:"الأردن",
+        Bank:"Jordan Kuwait Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.jkb.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"العراق",
+        Bank:"CreditCard Services Company SAL",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.issuers.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"العراق",
+        Bank:"Trade Bank of Iraq",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.tbiraq.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"العراق",
+        Bank:"Jordan Ahli Bank",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.ahli.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"العراق",
+        Bank:"Warka Bank for Investment and Finance",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.warka-bank.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Arab African International Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.aaib.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Banque Misr",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.banquemisr.com/sites/engbm/Pages/default.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"BLOM Bank SAL",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.blombank.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"National Bank of Egypt",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.nbe.com.eg/en/main.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"HSBC Bank Egypt",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.hsbc.com.eg"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"National Bank of Abu Dhabi",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://egypt.nbad.com/NBADInternet/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Citibank, N.A.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.citibank.com/egypt/homepage/home.htm"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Credit Agricole Egypt",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.ca-egypt.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Commercial International Bank (Egypt) S.A.E.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.cibeg.com/en/Pages/default.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Banque du Caire",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.bdc.com.eg/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"United Bank S.E.A.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.theubeg.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"BNP Paribas le Caire",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://egypt.bnpparibas.com/en/home/default.asp"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Piraeus Bank Egypt",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.piraeusbank.com.eg/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Egyptian Banks Co. For Technological Advancement, S.A.E.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.egyptianbanks.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"National Bank for Development",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.nbdegypt.com"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"National Societe General Bank S.A.E.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.nsgb.com.eg"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Housing & Development Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.hdb-egy.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Bank Audi- Audi Saradar Group",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.banqueaudi.com/Pages/Default.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"مصر",
+        Bank:"Mashreq Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.mashreqbank.com/egypt/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"Al Baraka Islamic Investment Bank / Nonoo Exchange",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.albaraka.bh/"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"National Bank of Bahrain",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.nbbonline.com/default.asp?action=category&id=27"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"Credimax",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.credimax.com.bh/contact_details"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"HSBC Bank Middle East",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.hsbc.com.bh/1/2/bh/"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"Ahli United Bank (Bahrain) B.S.C.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.ahliunited.com/bh_about.html"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"Ithmaar Bank B.S.C.",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.ithmaarbank.com/ithmaar_contactus_details.asp"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"State Bank of India",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://sbibahrain.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"Standard Chartered Bank",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"https://www.sc.com/bh/en/"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"Universal Financial Services B.S.C.",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.ufs.com.bh/"
+    },
+    {
+        Region:"Middle East",
+        Country:"البحرين",
+        Bank:"Bahrain Islamic Bank B.S.C",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://bisb.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"الجزائر",
+        Bank:"Gulf Bank Algeria",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"yes",
+        URL:"http://www.ag-bank.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"ليبيا",
+        Bank:"Aman Bank for Commerce and Investment (ABCI)",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.abci-ly.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"عُمان",
+        Bank:"HSBC Bank Middle East",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.hsbc.co.om/1/2/om/"
+    },
+    {
+        Region:"Middle East",
+        Country:"عُمان",
+        Bank:"Bank Muscat (SAOG)",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.bankmuscat.com/en-us/Pages/Default.aspx"
+    },
+    {
+        Region:"Middle East",
+        Country:"عُمان",
+        Bank:"National Bank of Oman (SAOG)",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.nbo.co.om/"
+    },
+    {
+        Region:"Middle East",
+        Country:"عُمان",
+        Bank:"CSCBank SAL",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://www.issuers.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"فلسطين",
+        Bank:"Bank of Palestine Ltd.",
+        Debit:"no",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://bankofpalestine.com/index.php?lang=en&page=122361628813"
+    },
+    {
+        Region:"Middle East",
+        Country:"اليمن",
+        Bank:"CreditCard Services Company SAL",
+        Debit:"yes",
+        Credit:"no",
+        Prepaid:"no",
+        URL:"http://www.issuers.com/"
+    },
+    {
+        Region:"Middle East",
+        Country:"اليمن",
+        Bank:"Yemen Commercial Bank",
+        Debit:"yes",
+        Credit:"yes",
+        Prepaid:"no",
+        URL:"http://ycb.com.ye/ycb_new/ycb-en/Default.aspx"
+    },
+  {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Sharjah Bank",
+    Debit:"yes",
+    Credit:"no",
+    Prepaid:"no",
+    URL:"http://www.bankofsharjah.com/Arb/Home.aspx"
+  },
+  {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Ajman Bank",
+    Debit:"yes",
+    Credit:"yes",
+    Prepaid:"no",
+    URL:"http://www.ajmanbank.ae/ar/Pages/Defaultv2.aspx"
+  },
+  {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Commercial Bank International",
+    Debit:"yes",
+    Credit:"yes",
+    Prepaid:"yes",
+    URL:"http://www.cbiuae.com/"
+  },
+  {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Dubai First",
+    Debit:"no",
+    Credit:"yes",
+    Prepaid:"no",
+    URL:"http://www.dubaifirst.com/"
+  },
+  {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Emirates Islamic Bank",
+    Debit:"yes",
+    Credit:"no",
+    Prepaid:"yes",
+    URL:"http://www.emiratesislamicbank.ae/ar/index.cfm"
+  }, 
+  {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Islamic Finance House",
+    Debit:"no",
+    Credit:"yes",
+    Prepaid:"no",
+    URL:"http://www.financehouse.ae/ar"
+  }, 
+  {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Mawarid Finance",
+    Debit:"no",
+    Credit:"yes",
+    Prepaid:"yes",
+    URL:"http://www.mawarid.ae/ar/default.aspx"
+  },
+ {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Reem Finance",
+    Debit:"no",
+    Credit:"yes",
+    Prepaid:"no",
+    URL:"http://www.reemfinance.ae/"
+  },
+ {
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Arab Bank",
+    Debit:"no",
+    Credit:"yes",
+    Prepaid:"no",
+    URL:"http://www.arabbank.com/ar/"
+  }, 
+{
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"United Arab Bank",
+    Debit:"no",
+    Credit:"yes",
+    Prepaid:"no",
+    URL:"http://www.uab.ae/cms/"
+},
+{
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Habib Bank",
+    Debit:"no",
+    Credit:"yes",
+    Prepaid:"no",
+    URL:"http://www.habibbank.com/uae/home/uaeHome.html"
+},
+{
+    Region:"Middle East",
+    Country:"الإمارات العربية المتحدة",
+    Bank:"Invest Bank",
+    Debit:"yes",
+    Credit:"no",
+    Prepaid:"no",
+    URL:"http://www.investbank.ae/"
+}
+	
+]
+}

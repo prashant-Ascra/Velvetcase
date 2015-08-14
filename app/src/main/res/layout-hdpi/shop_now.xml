@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reclyclerview_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:layout_alignParentTop="true"
+            />
+    </RelativeLayout>
+
+   <!-- <ImageView
+        android:id="@+id/jwel_imag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ring" 
+        />-->
+
+    <TextView
+        android:id="@+id/metal_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jwel_price"
+        android:layout_toRightOf="@+id/diamond_heading"
+        android:text="DIAMOND"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/jwel_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="\u20B9 5,010"
+        android:textSize="30sp"
+        android:layout_below="@+id/reclyclerview_wrapper"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reclyclerview_wrapper"
+       android:gravity="center"
+        android:text="\u20B9"
+        android:textSize="50dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/stone_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STONE"
+        android:paddingBottom="2dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_alignBaseline="@+id/metal_heading"
+        android:layout_alignBottom="@+id/metal_heading"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/metal_heading"
+        android:layout_toEndOf="@+id/metal_heading" />
+
+    <View
+        android:id="@+id/diamond_undeline"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+       android:layout_marginTop="5dp"
+        android:layout_below="@+id/metal_heading"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#000000" />
+
+
+
+    <TextView
+        android:id="@+id/diamond_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="METAL"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_above="@+id/diamond_undeline"
+        android:layout_toRightOf="@+id/back_btn"
+        android:layout_toEndOf="@+id/back_btn" />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:padding="16dp"
+        android:src="@drawable/arrow_icon" />
+
+    <LinearLayout
+        android:id="@+id/wheel_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/diamond_undeline">
+        <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/metal"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/diamond"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/stone"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        </LinearLayout>
+
+    <View
+        android:id="@+id/vie2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/wheel_wrapper"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#000000" />
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/vie2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sign_in_back"
+        android:text="SHOP NOW"
+        android:padding="4dp"
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/cardmainview_wrapper"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:clickable="true"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="3dp"
+        card_view:cardBackgroundColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp"
+            android:visibility="visible"
+            >
+
+
+            <ImageView
+                android:id="@+id/main_image"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:background="#ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/bangle"/>
+            <ImageView
+                android:id="@+id/hrt_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/greenheart"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/view_detail"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/main_image"
+                android:gravity="center"
+                android:background="#ffcccccc"
+
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:id="@+id/title_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_detail"
+                android:text="SWANKY PEARL EARRINGS"
+                android:gravity="start"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/flag_icon"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_below="@+id/title_detail"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/flag"
+                />
+            <TextView
+                android:id="@+id/designer_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_detail"
+                android:text="Min Sun,New York"
+                android:layout_toRightOf="@+id/flag_icon"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:gravity="top"
+                android:layout_marginTop="2dp"
+                />
+            <TextView
+                android:id="@+id/prise_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designer_detail"
+                android:text="18 Designs"
+                android:gravity="left"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginTop="12dp"
+                />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+

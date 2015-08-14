@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="@drawable/image_normal_selector"
+
+        >
+
+        <View
+            android:layout_width="91dp" android:layout_height="91dp"
+            android:id="@+id/back_view"
+
+            android:scaleType="fitXY"
+            android:background="#66CC99"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:layout_width="91dp" android:layout_height="91dp"
+            android:id="@+id/imageView9"
+            android:padding="2dp"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/ringone"/>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="91dp" android:layout_height="91dp"
+        android:visibility="visible"
+        >
+        <CheckBox
+            android:id="@+id/custom_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:checked="true"
+            android:button="@drawable/custom_check"
+            android:layout_alignParentBottom="true" />
+
+        <!--<ImageView android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/check_image"-->
+        <!--android:src="@drawable/checkbox_image"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:visibility="gone"/>-->
+
+    </RelativeLayout>
+</FrameLayout>

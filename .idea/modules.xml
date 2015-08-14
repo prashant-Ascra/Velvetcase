@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CircularIndicator/CircularIndicator.iml" filepath="$PROJECT_DIR$/CircularIndicator/CircularIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpinnerMaster/SpinnerMaster.iml" filepath="$PROJECT_DIR$/SpinnerMaster/SpinnerMaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VelvetCaseApp.iml" filepath="$PROJECT_DIR$/VelvetCaseApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+

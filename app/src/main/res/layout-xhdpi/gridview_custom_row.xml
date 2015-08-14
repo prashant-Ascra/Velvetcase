@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="100dp" android:layout_height="100dp"
+        android:background="@drawable/image_normal_selector"
+
+        >
+        <View
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:id="@+id/back_view"
+            android:scaleType="fitXY"
+            android:background="#66CC99"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:layout_width="101dp" android:layout_height="101dp"
+            android:id="@+id/imageView9"
+            android:padding="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ringone"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="100dp" android:layout_height="100dp"
+        android:visibility="visible"
+        android:layout_margin="1dp"
+        >
+        <CheckBox
+            android:id="@+id/custom_checkbox"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:checked="true"
+            android:button="@drawable/custom_check"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>
